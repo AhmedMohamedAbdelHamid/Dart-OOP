@@ -20,7 +20,7 @@ void main() {
   user.displayInfo();
 }
 
-**Problem 2**
+###Problem 2
 class BankAccount {
   double _balance = 0;
 
