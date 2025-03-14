@@ -1,8 +1,7 @@
 # Dart-OOP
 ### Easy Problems
 
-**Problem 1
-**
+**Problem 1**
 
 class User {
   String name;
@@ -21,8 +20,7 @@ void main() {
   user.displayInfo();
 }
 
-**Problem 2
-**
+**Problem 2**
 class BankAccount {
   double _balance = 0;
 
@@ -50,8 +48,7 @@ void main() {
   print(account.getBalance()); // Output: 50.0
 }
 
-**Problem 3
-**
+**Problem 3**
 import 'dart:math';
 
 class Shape {
@@ -85,8 +82,7 @@ void main() {
 
 ### Easy Scenario:
 
-**1. Employee Management System (Encapsulation & Getters/Setters)
-**
+**1. Employee Management System (Encapsulation & Getters/Setters)**
 class Employee {
   String name;
   String position;
@@ -108,8 +104,7 @@ void main() {
   print("Salary: ${emp.salary}"); // Output: 0.0
 }
 
-**2. Library Book Tracking (Class & Object Creation)
-**
+**2. Library Book Tracking (Class & Object Creation)**
 class Book {
   String title;
   String author;
@@ -127,8 +122,7 @@ void main() {
   book.displayDetails();
 }
 
-**3. E-commerce Product (Constructor & Named Constructor)
-**
+**3. E-commerce Product (Constructor & Named Constructor)**
 class Product {
   final String name;
   final double price;
@@ -146,8 +140,7 @@ void main() {
 }
 
 
-**4. AI-Powered Weather App (Encapsulation & Getters/Setters)
-**
+**4. AI-Powered Weather App (Encapsulation & Getters/Setters)**
 
 class WeatherData {
   double _temperature;
@@ -176,8 +169,7 @@ void main() {
   weather.displayInsights();
 }
 
-**5. AI Chatbot (Class & Object Creation)
-**
+**5. AI Chatbot (Class & Object Creation)**
 class AIChatbot {
   String name;
   String language;
@@ -199,8 +191,7 @@ void main() {
   print(bot.generateResponse("Hello!"));
 }
 
-**6. AI-Based Translator (Constructor & Named Constructor)
-**
+**6. AI-Based Translator (Constructor & Named Constructor)**
 class Translator {
   String sourceLanguage;
   String targetLanguage;
@@ -224,8 +215,7 @@ void main() {
   print(translator.translate("Hola mundo")); // Output: [Translated to English] Hola mundo
 }
 
-**7. Voice Assistant (Method Overriding & Inheritance)
-**
+**7. Voice Assistant (Method Overriding & Inheritance)**
 class VoiceAssistant {
   void listen() => print("Listening...");
   void respond(String input) => print("Base response: $input");
@@ -251,8 +241,7 @@ void main() {
 
 ###Medium Scenario:
 
-**1. Messaging App (Abstract Class & Interface)
-**
+**1. Messaging App (Abstract Class & Interface)**
 abstract class Message {
   void send();
 }
@@ -277,8 +266,7 @@ void main() {
   messages.forEach((msg) => msg.send());
 }
 
-**2. AI-Based Personal Trainer App (Polymorphism & Inheritance)
-**
+**2. AI-Based Personal Trainer App (Polymorphism & Inheritance)**
 class Workout {
   String generateRoutine() => "Generic workout routine";
 }
@@ -303,8 +291,7 @@ void main() {
   routines.forEach((r) => print(r.generateRoutine()));
 }
 
-**3. AI-Powered Health Monitoring (Abstract Class & Interface)
-**
+**3. AI-Powered Health Monitoring (Abstract Class & Interface)**
 abstract class HealthMonitor {
   String analyzeData();
 }
@@ -324,8 +311,7 @@ void main() {
   monitors.forEach((m) => print(m.analyzeData()));
 }
 
-**4. AI-Driven Resume Scanner (Factory Constructor)
-**
+**4. AI-Driven Resume Scanner (Factory Constructor)**
 abstract class ResumeAnalyzer {
   String analyze();
 
@@ -356,8 +342,7 @@ void main() {
   print(analyzer.analyze());
 }
 
-**5. Smart Home Automation (Composition & Inheritance)
-**
+**5. Smart Home Automation (Composition & Inheritance)**
 class AIPredictor {
   String predictPreference() => "AI predicts user preference: ";
 }
@@ -380,8 +365,7 @@ void main() {
   print(light.activate());
 }
 
-**6. AI-Powered Fraud Detection (Exception Handling)
-**
+**6. AI-Powered Fraud Detection (Exception Handling)**
 class FraudDetectedException implements Exception {
   final String message;
   FraudDetectedException(this.message);
